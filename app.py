@@ -69,7 +69,7 @@ if not st.session_state.setup_complete:
     with col2:
         st.session_state["position"] = st.selectbox(
         "Choose a position",
-        ("Data Scientist", "Data engineer", "ML Engineer", "BI Analyst", "Financial Analyst", "Programmer"))
+        ("Data Scientist", "Data engineer", "ML Engineer", "BI Analyst", "Financial Analyst", "Programmer", "Information Security Officer"))
 
     st.session_state["company"] = st.selectbox(
         "Choose a Company",
